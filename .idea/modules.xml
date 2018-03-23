@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/untitled.iml" filepath="$PROJECT_DIR$/.idea/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NovelSpriderServer.iml" filepath="$PROJECT_DIR$/.idea/NovelSpriderServer.iml" />
+      <module fileurl="file://C:\Users\Administrator\PycharmProjects\NovelSpriderServer\.idea\untitled.iml" filepath="C:\Users\Administrator\PycharmProjects\NovelSpriderServer\.idea\untitled.iml" />
     </modules>
   </component>
 </project>

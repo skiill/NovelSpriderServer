@@ -21,15 +21,17 @@ def getNum(doc):
     count = doc('ul li').size();
     return count;
 def main():
-    url = 'http://www.xntk.net/html/19/19576/';
-    doc = getHtml(url);
-    count = getNum(doc);
-    print("共有%d条记录"%count)
-    for id in range(0,count):
-        data = paserHtml(doc,id);
-        writeToFile(data);
-        #print('还有%d条记录'%(count-id));
-
+    # url = 'http://www.xntk.net/html/19/19576/';
+    # doc = getHtml(url);
+    # count = getNum(doc);
+    # print("共有%d条记录"%count)
+    # for id in range(0,count):
+    #     data = paserHtml(doc,id);
+    #     writeToFile(data);
+    #     #print('还有%d条记录'%(count-id)); <a href="http://d34.ixdzs.com/156/156607/156607txt.zip">点击立即跳转...</a>
+    r= requests.get('http://d34.ixdzs.com/156/156607/156607txt.zip');
+    with open("test", "wb") as code:
+        code.write(r.content)
 
 
 if __name__ == '__main__':
